@@ -18,6 +18,7 @@
   font-weight: 500;
   margin-bottom: 15px;
   font-size: larger;
+  cursor: pointer;
 }
 
 .sidebars-primary {
@@ -26,13 +27,12 @@
   font-size: larger;
   font-weight: 500;
   margin-bottom: 15px;
+  cursor: pointer;
 }
 
 .sidebars-link:hover,
 .sidebars-link:active,
 .sidebars-link:focus,
-.sidebars-link::before,
-.sidebars-link::after,
 .sidebars-link:link {
   color: #38bcbc;
 }

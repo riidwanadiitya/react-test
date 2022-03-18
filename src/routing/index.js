@@ -11,9 +11,9 @@ function Routing() {
       <HashRouter>
         <Headbars />
         <Routes>
+          {/* <Route path="/" element={<Beranda />} /> */}
           <Route path="/" element={<PersonnelList />} />
-          <Route path="/beranda" element={<Beranda />} />
-          <Route path="/daily-attendence" element={<DialyAttendance />} />
+          {/* <Route path="/daily-attendence" element={<DialyAttendance />} /> */}
         </Routes>
       </HashRouter>
     </div>

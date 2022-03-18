@@ -1,6 +1,6 @@
 import * as ShowPageTypes from "./ShowPageTypes";
 
-const initialState = { pages: "beranda" };
+const initialState = { pages: "personnel-list" };
 
 const showPageReducers = (state = initialState, action) => {
   switch (action.type) {

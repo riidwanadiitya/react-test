@@ -11,21 +11,18 @@ function Sidebars(props) {
   return (
     <Container className="sidebars-container d-flex">
       <Nav defaultActiveKey="/home" className="flex-column">
-        <Link
-          to="/"
-          name="beranda"
+        <span
           className={
             showPage === "beranda" ? "sidebars-primary" : "sidebars-link"
           }
-          onClick={(e) => changePage(e.target.name)}
         >
           <span className="icons">
             <FaIcons.FaHome />
           </span>
           Beranda
-        </Link>
+        </span>
         <Link
-          to="/personnel-list"
+          to="/"
           name="personnel-list"
           className={
             showPage === "personnel-list" ? "sidebars-primary" : "sidebars-link"
@@ -37,21 +34,18 @@ function Sidebars(props) {
           </span>
           Personnel List
         </Link>
-        <Link
-          to="/daily-attendence"
-          name="daily-attendence"
+        <span
           className={
             showPage === "daily-attendence"
               ? "sidebars-primary"
               : "sidebars-link"
           }
-          onClick={(e) => changePage(e.target.name)}
         >
           <span className="icons">
             <FaIcons.FaRegCalendarAlt />
           </span>
           Daily Attendance
-        </Link>
+        </span>
       </Nav>
     </Container>
   );
