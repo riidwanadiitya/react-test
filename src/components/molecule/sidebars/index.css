@@ -33,8 +33,7 @@
 .sidebars-link:focus,
 .sidebars-link::before,
 .sidebars-link::after,
-.sidebars-link:link,
-.sidebars-link: {
+.sidebars-link:link {
   color: #38bcbc;
 }
 

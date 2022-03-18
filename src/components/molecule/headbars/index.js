@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Image,  Navbar } from "react-bootstrap";
-import "./index";
 import { useMediaQuery } from "react-responsive";
 import Sidebars from "../sidebars";
 
